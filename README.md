@@ -1,4 +1,6 @@
-# 两台电脑继续 Vibe Coding 的同步方案
+# Pawcamp
+
+## 两台电脑继续 Vibe Coding 的同步方案
 
 这套方案把同步分成三部分：
 
