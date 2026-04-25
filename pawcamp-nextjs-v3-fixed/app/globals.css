@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --background: #edf1ec;
+  --surface: #fffdf9;
+  --surface-alt: #f5f3ed;
+  --surface-muted: #eef4ef;
+  --foreground: #18212b;
+  --muted: #65707d;
+  --primary: #2c6c56;
+  --primary-2: #3d8366;
+  --primary-soft: #deeee5;
+  --success-soft: #e4f5ea;
+  --warning-soft: #fff0d8;
+  --danger-soft: #fde8e5;
+  --border: rgba(24, 33, 43, 0.08);
+  --border-strong: rgba(24, 33, 43, 0.14);
+  --shadow: 0 16px 40px rgba(20, 27, 35, 0.08);
+  --shadow-lg: 0 26px 70px rgba(20, 27, 35, 0.12);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(222, 238, 229, 0.95), transparent 28%),
+    radial-gradient(circle at 100% 20%, rgba(255, 240, 216, 0.65), transparent 16%),
+    var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+input, select { font: inherit; }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-surface-muted: var(--surface-muted);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-2: var(--primary-2);
+  --color-primary-soft: var(--primary-soft);
+  --color-success-soft: var(--success-soft);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger-soft: var(--danger-soft);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --shadow-soft: var(--shadow);
+  --shadow-lg: var(--shadow-lg);
+}
+
+.range-accent {
+  accent-color: var(--primary);
+}
+
+.app-gradient {
+  background: linear-gradient(180deg, #2e735a 0%, #2d6a56 58%, #326f5c 100%);
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Compact Mapbox attribution instead of hiding it (hiding violates ToS) */
+.mapboxgl-ctrl-attrib {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.pawcamp-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 2px solid rgba(255,255,255,0.92);
+  border-radius: 9999px;
+  background: #2c6c56;
+  color: white;
+  box-shadow: 0 12px 28px rgba(20,27,35,0.20);
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.pawcamp-marker:hover,
+.pawcamp-marker--active {
+  transform: scale(1.08);
+  background: #1f5846;
+  box-shadow: 0 18px 36px rgba(20,27,35,0.24);
+}
