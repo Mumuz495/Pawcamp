@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">PawCamp Apple Touch Icon</title>
+  <desc id="desc">Green rounded square icon for PawCamp.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d8366" />
+      <stop offset="100%" stop-color="#1f5846" />
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="42" fill="url(#bg)" />
+  <circle cx="90" cy="90" r="52" fill="#f6f4ee" opacity="0.16" />
+  <path d="M90 52c7 0 13 6 13 13s-6 13-13 13-13-6-13-13 6-13 13-13Zm-28 17c6 0 11 5 11 11s-5 11-11 11-11-5-11-11 5-11 11-11Zm56 0c6 0 11 5 11 11s-5 11-11 11-11-5-11-11 5-11 11-11ZM69 93c10 0 21 7 21 18v10H63v-10c0-11 6-18 6-18Zm42 0c0 0 6 7 6 18v10H90v-10c0-11 11-18 21-18Z" fill="#fffdf9" />
+  <path d="M64 131l26-36 26 36H64Z" fill="#fff0d8" />
+  <path d="M90 109l9 13H81l9-13Z" fill="#2c6c56" />
+</svg>
