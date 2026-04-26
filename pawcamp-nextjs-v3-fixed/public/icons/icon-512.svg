@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PawCamp App Icon Large</title>
+  <desc id="desc">Rounded green app icon with a paw and campsite mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d8366" />
+      <stop offset="100%" stop-color="#1f5846" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="148" fill="#f6f4ee" opacity="0.16" />
+  <path d="M256 148c22 0 40 18 40 40s-18 40-40 40-40-18-40-40 18-40 40-40Zm-80 50c18 0 33 15 33 33s-15 33-33 33-33-15-33-33 15-33 33-33Zm160 0c18 0 33 15 33 33s-15 33-33 33-33-15-33-33 15-33 33-33Zm-137 74c33 0 57 24 57 59v28H175v-28c0-35 24-59 24-59Zm114 0c0 0 24 24 24 59v28h-81v-28c0-35 24-59 57-59Z" fill="#fffdf9" />
+  <path d="M184 386l72-108 72 108H184Z" fill="#fff0d8" />
+  <path d="M256 316l23 32h-46l23-32Z" fill="#2c6c56" />
+</svg>
